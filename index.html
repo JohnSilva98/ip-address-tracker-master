@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon link -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- leafletjs import -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>IP Address Tracker</h1>
+
+      <div id="searcharea">
+       <input type="text" name="search" id="search" placeholder=" Search for any IP address or domain location">
+       <button id="searchbtn" class="btn_dark">
+        <img src="images/icon-arrow.svg" width="12px" height="12px" id="arrowimg" class="btn_dark">
+       </button>
+      </div>
+    </div>
+    <div class="results-display">
+      <div class="display-container">
+        <div class="info_block">
+          <h4 class="title">IP Adress</h4>
+          <span id="ip" class="results">192.168.0.1</span>
+        </div>
+        <div class="info_block">
+          <h4 class="title">Location</h4>
+          <span id="location" class="results">Itau CEIC</span>
+        </div>
+        <div class="info_block">
+          <h4 class="title">Timezone</h4>
+          <span id="timezone" class="results">GTM 00:00</span>
+        </div>
+        <div class="info_block">
+          <h4 class="title">ISP</h4>
+          <span id="isp" class="results">Itau Unibanco</span>
+        </div>
+      </div>
+    </div>
+     <div id="map" class="map-container"></div>
+
+    <div class="attribution" id="footer">
+   <p>Challenge by </p>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+         Frontend Mentor    
+      </a>
+       </a
+      >. Coded by
+      <a href="https://github.com/johnsilva98" target="_blank">
+        Jonathan Silva</a
+      >.
+    </div>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <script src="index.js"></script>
+  </body>
+</html>

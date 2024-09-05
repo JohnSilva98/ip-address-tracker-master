@@ -1,0 +1,99 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 150px;
+  background: url(images/pattern-bg-desktop.png) no-repeat 100% 100% / cover;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#searcharea {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#search {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+img {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 10px;
+}
+
+.btn_dark {
+  color: #fff;
+  background-color: black;
+}
+
+.display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+  background-color: #fff;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  min-height: 130px;
+  z-index: 1000;
+  padding: 30px;
+}
+
+.info_block {
+  border-right: 1px solid;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 15px;
+}
+.info_block:last-child {
+  border-right: none;
+}
+
+.title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #afafaf;
+}
+
+span.results {
+  font-weight: 700;
+  color: #2b2b2b;
+  font-size: 16px;
+}
+
+#map {
+  height: 80vh;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
