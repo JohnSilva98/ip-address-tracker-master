@@ -12,16 +12,22 @@ const port = 5500;
 app.use(cors());
 
 app.get("/api/", async (req, res) => {
-  // const endpoint = req.params.endpoint;
   const apiKey = process.env.API_KEY;
-  const url = `https://geo.ipify.org/api/v2/?apiKey=${apiKey}`;
+  const ipAddress = req.query.ipAddress || "";
+  const plan = "country,city"; // Ajuste o plano conforme necessário
+  const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${ipAddress}`;
 
   try {
     const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
     const data = await response.json();
     res.json(data);
   } catch (error) {
-    res.status(500).json({ error: "Erro ao buscar dados" });
+    res
+      .status(500)
+      .json({ error: "Erro ao buscar dados", message: error.message });
   }
 });
 
