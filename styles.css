@@ -99,7 +99,7 @@ span.results {
 }
 
 /* Mídia Query para telas pequenas (375px) */
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 450px) {
   #header {
     height: 120px; /* Ajuste da altura do cabeçalho */
     background: url(images/pattern-bg-mobile.png);
