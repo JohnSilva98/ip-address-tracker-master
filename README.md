@@ -1,6 +1,6 @@
 # Frontend Mentor - IP address tracker solution
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Essa é minha solução para o desafio [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
 ## Indice
 
@@ -20,7 +20,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ## Visão geral
 
-The main goal is to use the geoipfy and leafletjs API's to create a location and catch the details of an IP Adress
+O objetivo principal é usar a API geoipfy e a biblioteca leafletjs para criar um mapa interativo que busque a localização baseada no IP
 
 ### O desafio
 
@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de Tela
 
-![](![alt text](image.png))
+(![alt text](image.png))
 
 ### Links
 
