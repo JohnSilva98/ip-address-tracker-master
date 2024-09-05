@@ -97,3 +97,40 @@ span.results {
   justify-content: center;
   margin-top: 10px;
 }
+
+/* Mídia Query para telas pequenas (375px) */
+@media (max-width: 375px) {
+  #header {
+    height: 120px; /* Ajuste da altura do cabeçalho */
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Reduzir o tamanho da fonte para telas pequenas */
+  }
+
+  #search {
+    width: 90%; /* Ajusta a largura do campo de pesquisa */
+    height: 2.5rem; /* Aumenta a altura para melhor usabilidade */
+  }
+
+  .display-container {
+    width: 90%; /* Ajusta a largura da caixa de informações */
+    padding: 15px; /* Reduz o padding para telas pequenas */
+    margin-top: -30px; /* Ajusta a margem superior para evitar sobreposição */
+  }
+
+  .info_block {
+    border-right: none; /* Remove a borda direita para melhor visualização em telas pequenas */
+    border-bottom: 1px solid; /* Adiciona uma borda inferior para separar os blocos */
+    padding: 10px 0; /* Ajusta o padding para as novas dimensões */
+  }
+
+  .info_block:last-child {
+    border-bottom: none; /* Remove a borda inferior do último bloco */
+  }
+
+  #map {
+    height: 60vh; /* Ajusta a altura do mapa para se ajustar à tela */
+  }
+}
