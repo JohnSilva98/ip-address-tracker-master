@@ -99,10 +99,10 @@ span.results {
 }
 
 /* Mídia Query para telas pequenas (375px) */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   #header {
     height: 120px; /* Ajuste da altura do cabeçalho */
-    background-size: cover;
+    background: url(images/pattern-bg-mobile.png);
   }
 
   h1 {
@@ -110,19 +110,22 @@ span.results {
   }
 
   #search {
-    width: 90%; /* Ajusta a largura do campo de pesquisa */
+    width: 80%; /* Ajusta a largura do campo de pesquisa */
     height: 2.5rem; /* Aumenta a altura para melhor usabilidade */
   }
 
   .display-container {
+    height: 250px;
     width: 90%; /* Ajusta a largura da caixa de informações */
-    padding: 15px; /* Reduz o padding para telas pequenas */
+    padding: 10px; /* Reduz o padding para telas pequenas */
     margin-top: -30px; /* Ajusta a margem superior para evitar sobreposição */
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
   }
 
   .info_block {
-    border-right: none; /* Remove a borda direita para melhor visualização em telas pequenas */
-    border-bottom: 1px solid; /* Adiciona uma borda inferior para separar os blocos */
+    border-right: none;
     padding: 10px 0; /* Ajusta o padding para as novas dimensões */
   }
 
