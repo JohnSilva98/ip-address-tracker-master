@@ -36,8 +36,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Link da solução: [Add solution URL here](https://www.frontendmentor.io/solutions/ip-address-CBQZm8t1QP)
-- Link do projeto hospeado: [Add live site URL here](https://ipatracker.vercel.app/)
+- Link da solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/ip-address-CBQZm8t1QP)
+- Link do projeto hospeado: [Vercel.app](https://ipatracker.vercel.app/)
 
 ### Tecnologias Utilizadas
 
