@@ -12,11 +12,10 @@ Essa é minha solução para o desafio [IP address tracker challenge on Frontend
     - [O desafio](#o-desafio)
     - [Captura de Tela](#captura-de-tela)
     - [Links](#links)
-  - [My process](#my-process)
     - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-    - [What I learned](#what-i-learned)
+    - [O que eu aprendi neste projeto](#o-que-eu-aprendi-neste-projeto)
     - [Recursos Úteis](#recursos-úteis)
-  - [Author](#author)
+  - [Autor](#autor)
 
 ## Visão geral
 
@@ -40,8 +39,6 @@ Os usuários devem ser capazes de:
 - Link da solução: [Add solution URL here](https://your-solution-url.com)
 - Link do projeto hospeado: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
 ### Tecnologias Utilizadas
 
 - HTML5 Semântico
@@ -51,7 +48,7 @@ Os usuários devem ser capazes de:
 - Biblioteca Leafletjs
 - Design responsivo
 
-### What I learned
+### O que eu aprendi neste projeto
 
 Durante o desenvolvimento deste projeto, aprendi várias técnicas valiosas, incluindo:
 
@@ -64,7 +61,7 @@ Durante o desenvolvimento deste projeto, aprendi várias técnicas valiosas, inc
 - [Documentação do Leaflet](https://leafletjs.com/examples/quick-start/) - Uma excelente fonte para entender e usar a biblioteca Leaflet para mapas.
 - [Documentação do Geoipfy](https://geo.ipify.org/docs) - Explicação detalhada de como a api trabalha e quais são os dados que poder ser consultados
 
-## Author
+## Autor
 
 - Website - [Portfólio](https://jonathan-silva.vercel.app/)
 - Frontend Mentor - [@JohnSilva98](https://www.frontendmentor.io/profile/JohnSilva98)
